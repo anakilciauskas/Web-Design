@@ -1,10 +1,18 @@
+<!-- Definição do arquivo HTML e o idioma usado -->
 <!DOCTYPE html>
 <html lang="pt-BR">
+
+<!-- Cabeçalho do arquivo com o tipo de tabela de caracteres
+usada e o nome que deve aparecer na guia da página web -->
 <head>
     <meta charset="UTF-8">
     <title>Elementos HTML</title>
 </head>
+
+<!-- Início do corpo do código HTML -->
 <body>
+    <!-- Cabeçalho do site com as diferentes tags de título, além 
+     de três exemplos de alinhamento de elementos de texto-->
     <header>
         <!-- Centralizado -->
         <h1 align="center">Título principal (H1) - centralizado</h1>
@@ -16,6 +24,9 @@
         <h5>Detalhe (H5)</h5>
         <h6>Nota (H6)</h6>
     </header>
+
+    <!-- Trecho que permite criar um menu, com os itens levando 
+     a outros lugares dentro da página -->
     <nav>
         <p>
             <a href=#posts>
@@ -32,20 +43,26 @@
         </p>
     </nav>
 
+    <!-- Seção que organiza elementos da aplicação -->
     <section id="posts">
+        <!-- Classificação da categoria do trecho do código -->
         <article class="post">
+            <!-- Cabeçalho com título -->
             <header>
                 <h2>Meu Blog - Primeiro Post</h2>
             </header>
+            <!-- Parágrafo com diferentes estilos de destaque de texto -->
             <p>
                 Este é um parágrafo com <b>negrito</b>, <i>itálico</i>, 
                 <u>sublinhado</u>, <s>riscado</s>, além de exemplos de 
                 <sub>subscrito</sub> e <sup>sobrescrito</sup>.
             </p>
+            <!-- Parágrafo com texto personalizado, exemplo de estilização com HTML -->
             <p>
                 <font size="4" color="blue">Exemplo de texto estilizado </font>
                 (substituindo a tag &ltfont&gt obsoleta).
             </p>
+            <!-- Parágrafos com dois tipos de alinhamentos de texto seguido de quebra de linha -->
             <p align="center">Este texto está centralizado</p>
             <p align="justify">
                 Parágrafo justificado para demonstrar alinhamento. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -54,13 +71,19 @@
             </p>
         </article>
     </section>
+
+    <!--- Trecho lateral com elementos adicionais -->
     <aside id="lateral">
         <h3>Conteúdo Relacionado</h3>
         <p>Links, anúncios, ou notas que não fazem parte do fluxo principal do artigo.</p>
         <br/>
     </aside>
 </body>
+
+<!-- Rodapé do arquivo HTML -->
 <footer id="rodape" align="center">
     © 2026 - Exemplo didático de HTML da Aula 03
 </footer>
+
+<!-- Fim do código -->
 </html>
